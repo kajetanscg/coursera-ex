@@ -29,7 +29,8 @@ p1 {
     border-left:1px solid black;
     border-bottom:1px solid black;
     font-family: Helvetica;
-    text-transform: uppercase;
+    text-transform: capitalize;
+    font-weight: bold;
     padding-top:5px;
     padding-bottom: 5px;
     padding-left: 15px;
@@ -45,7 +46,8 @@ p#p1 {
 p#p2 {
     position:relative;
 }
-p#p3 { position:relative; 
+p#p3 { 
+    position:relative;
 }
 
 #title_p1 {
