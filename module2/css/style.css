@@ -15,7 +15,6 @@ p {
     border: 1px solid black;
     background-color: #b0bec5 ;
     width: 95%;
-    height: 150px;
     margin-right: auto;
     margin-left: auto;
     font-family: Helvetica;
@@ -36,8 +35,8 @@ p1 {
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
-    width:40%;
-    height:20%
+    width: 120px;
+    height:30px;
 }
 
 p#p1 {
@@ -118,6 +117,7 @@ p#p3 {
   }
   .col-lg-12 {
     width: 100%;
+
   }
 }
 /********** Tablet devices only **********/
