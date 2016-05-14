@@ -51,22 +51,37 @@ body {
 #home-title {
     font-weight: bold;
 }
-#main-text {
+.main-text {
+    margin-top:30px;
     background-color: #FFB300;
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
+    position: relative;
 }
-#main-text h3 {
+.main-text h3 {
     font-size: 1.5em;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.main-text a {
+    font-family: arial, sans-serif;
+    font-size: .9em;
+    color: #FFF8E1;
+    position:absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.main-text a:hover {
+    text-decoration: none;
+    color: #F44336;
+  
+}
 /*** END HOME PAGE ***/
 
-/*********** Extra small device only ***********/
+/***************** Extra small device only *****************/
 @media(max-width: 767px) {
-    #main-text {
+    .main-text {
         margin-left: 40px;
         margin-right: 40px;
     }
