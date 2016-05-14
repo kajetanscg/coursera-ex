@@ -1,0 +1,73 @@
+body {
+    font-size: 16px;
+    background-color: #FFF8E1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*** HEADER ***/
+#header-nav {
+    background-color: #B71C1C;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand h1 {
+    color: #EFEBE9;
+    font-size: 1.6em;
+    margin-top: -2px;
+    margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+    margin-bottom: 0;
+    background-color: #F44336;
+}
+#nav-list a {
+    text-align: center;
+    color: black;
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+#nav-list a:hover {
+    background-color: #B71C1C;
+    color: white;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #FFF8E1;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -40px;
+}
+.navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:focus {
+    background-color: #F44336;
+}
+/*** END HEADER ***/
+
+/*** HOME PAGE ***/
+#home-title {
+    font-weight: bold;
+}
+#main-text {
+    background-color: #FFB300;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+#main-text h3 {
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*** END HOME PAGE ***/
+
+/*********** Extra small device only ***********/
+@media(max-width: 767px) {
+    #main-text {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
